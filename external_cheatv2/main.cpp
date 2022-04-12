@@ -14,7 +14,7 @@ int main(int argv, char *argc[]) {
 
     DWORD procId = GetProcId(procName);
     if (!procId || procId == 0) {
-        std::cout << "Proccess Id could not be retrieved" << std::endl;
+        std::cout << "Process Id could not be retrieved" << std::endl;
         return 1;
     }
 
