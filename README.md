@@ -23,6 +23,7 @@ This project was made for COMP6841 for my Something Awesome Project. It contains
 - It also contains the same features as `internal_cheat`, but has a GUI
 - The compiled .dll file is in `comp6841-project/ac_internal_gui/Release/ac_internal_gui.dll`
 - The source code is in `comp6841-project/ac_internal_gui/src/src/`
+- The GUI code was based off https://github.com/adafcaefc/Universal-OpenGL-2-Kiero-Hook, which utilises [Kiero](https://github.com/Rebzzel/kiero) and [ImGUI](https://github.com/ocornut/imgui)
 
 ## Side Notes
 - `external_cheat` and `external_cheatv2` were compiled with the Windows API from https://www.mingw-w64.org/, following [this guide](https://code.visualstudio.com/docs/cpp/config-mingw) 
