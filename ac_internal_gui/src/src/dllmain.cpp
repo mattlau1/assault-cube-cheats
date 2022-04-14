@@ -6,9 +6,6 @@
 bool bHealth = false, bAmmo = false, bRecoil = false, bGrenade = false;
 
 DWORD WINAPI HackThread(HMODULE hModule) {
-    FILE* f;
-    freopen_s(&f, "CONOUT$", "w", stdout);
-
     uintptr_t moduleBase = (uintptr_t)GetModuleHandle(L"ac_client.exe");
 
     // calling it with NULL also gives you the address of the .exe module
@@ -84,7 +81,6 @@ DWORD WINAPI HackThread(HMODULE hModule) {
         Sleep(5);
     }
 
-    fclose(f);
     FreeLibraryAndExitThread(hModule, 0);
     return 0;
 }
