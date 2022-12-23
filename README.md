@@ -1,6 +1,6 @@
 # Assault Cube Cheats
 ## What is this?
-This project was made for COMP6841 for my Something Awesome Project. It contains external and internal cheats for Assault Cube based off code from some beginner tutorials.
+This project repo contains external and internal cheats for Assault Cube based off code from some beginner tutorials.
 
 ## external_cheat
 - This folder contains the source code and a compiled `.exe` file
@@ -28,5 +28,4 @@ This project was made for COMP6841 for my Something Awesome Project. It contains
 ## Side Notes
 - `external_cheat` and `external_cheatv2` were compiled with the Windows API from https://www.mingw-w64.org/, following [this guide](https://code.visualstudio.com/docs/cpp/config-mingw) 
 - `internal_cheat` and `ac_internal_gui` were compiled with the Windows API from Visual Studio 2022
-- For some reason, both APIs were slightly different, so both external cheats need to be slightly modified (change `const char *`s to `const wchar_t *`s) to compile with Visual Studio 2022
-- I had to move to Visual Studio 2022 for the internal cheats because it was too hard to compile `.dll` files in VSCode
+- Both APIs were slightly different, so both external cheats need to be slightly modified (change `const char *`s to `const wchar_t *`s) to compile with Visual Studio 2022
